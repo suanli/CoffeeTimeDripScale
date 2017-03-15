@@ -1,0 +1,1 @@
+esptool.py --port /dev/tty.SLAB_USBtoUART write_flash --flash_mode dio --flash_size 32m 0x0 ../bin/boot_v1.6.bin 0x3fe000 ../bin/blank.bin 0x1000 ../bin/upgrade/user1.4096.new.6.bin 0x3Fc000 ../bin/esp_init_data_default.bin

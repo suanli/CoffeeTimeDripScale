@@ -23,6 +23,7 @@
  */
 
 #include "esp_common.h"
+#include "uart.h"
 
 /******************************************************************************
  * FunctionName : user_rf_cal_sector_set
@@ -76,6 +77,7 @@ uint32 user_rf_cal_sector_set(void)
 *******************************************************************************/
 void user_init(void)
 {
+    uart_init_new();
     printf("SDK version:%s\n", system_get_sdk_version());
 }
 

@@ -24,6 +24,8 @@
 
 #include "esp_common.h"
 #include "uart.h"
+#include "gpio.h"
+#include "led.h"
 
 /******************************************************************************
  * FunctionName : user_rf_cal_sector_set
@@ -69,6 +71,7 @@ uint32 user_rf_cal_sector_set(void)
     return rf_cal_sec;
 }
 
+
 /******************************************************************************
  * FunctionName : user_init
  * Description  : entry of user application, init user function here
@@ -79,5 +82,14 @@ void user_init(void)
 {
     uart_init_new();
     printf("SDK version:%s\n", system_get_sdk_version());
+    
+    led_init();
+    //vTaskDelay(10000);
+    led_set(LED_NORMAL_FLASH_SLOW);
+    //vTaskDelay(10000);
+    //led_set(LED_NORMAL_FLASH_FAST);
+    //vTaskDelay(10000);
+    //led_set(LED_NORMAL_ON);
+    printf("exit user init\r\n");
 }
 

@@ -8,8 +8,10 @@ export SDK_PATH=~/esp_iot_sdk_freertos
 export BIN_PATH=~/esp8266_bin
 !
 
-export SDK_PATH=$SDK_PATH
-export BIN_PATH=$BIN_PATH
+CMD_PATH=`dirname $0`
+
+export SDK_PATH=$CMD_PATH/../../
+export BIN_PATH=$CMD_PATH/../../bin/
 
 echo "gen_misc.sh version 20150911"
 echo ""

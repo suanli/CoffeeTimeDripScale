@@ -126,7 +126,7 @@ DDEFINES +=				\
 # Required for each makefile to inherit from the parent
 #
 
-INCLUDES := $(INCLUDES) -I $(PDIR)include
+INCLUDES := $(INCLUDES) -I $(PDIR)include -I $(PDIR)driver -I $(PDIR)led
 sinclude $(SDK_PATH)/Makefile
 
 .PHONY: FORCE

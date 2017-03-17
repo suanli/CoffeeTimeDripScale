@@ -1,9 +1,2 @@
----- gpio16_output_conf Matches (8 in 6 files) ----
-All_7.js (documents\html\search):  ['gpio16_5foutput_5fconf',['gpio16_output_conf',['../group__GPIO__Driver__APIs.html#gaf94c9f201c7ee9ad7a71b5eb8b720b00',1,'gpio.h']]],
-Functions_2.js (documents\html\search):  ['gpio16_5foutput_5fconf',['gpio16_output_conf',['../group__GPIO__Driver__APIs.html#gaf94c9f201c7ee9ad7a71b5eb8b720b00',1,'gpio.h']]],
-Gpio.c (driver_lib\driver):void gpio16_output_conf(void)
-Gpio.h (driver_lib\include):void gpio16_output_conf(void);
-Gpio_8h_source.html (documents\html):<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__GPIO__Driver__APIs.html#gaf94c9f201c7ee9ad7a71b5eb8b720b00">gpio16_output_conf</a>(<span class="keywordtype">void</span>);</div>
-Gpio_8h_source.html (documents\html):<div class="ttc" id="group__GPIO__Driver__APIs_html_gaf94c9f201c7ee9ad7a71b5eb8b720b00"><div class="ttname"><a href="group__GPIO__Driver__APIs.html#gaf94c9f201c7ee9ad7a71b5eb8b720b00">gpio16_output_conf</a></div><div class="ttdeci">void gpio16_output_conf(void)</div><div class="ttdoc">Enable GPIO16 output. </div></div>
-group__GPIO__Driver__APIs.html (documents\html):<tr class="memitem:gaf94c9f201c7ee9ad7a71b5eb8b720b00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GPIO__Driver__APIs.html#gaf94c9f201c7ee9ad7a71b5eb8b720b00">gpio16_output_conf</a> (void)</td></tr>
-group__GPIO__Driver__APIs.html (documents\html):          <td class="memname">void gpio16_output_conf </td>
+---- porttick Matches (1 in 1 files) ----
+CoffeeTimeDripScale.SearchResults (s:\esp8266\coffeetimedripscale\project):---- porttick Matches (#count#) ----

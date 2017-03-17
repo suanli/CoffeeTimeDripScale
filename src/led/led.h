@@ -11,7 +11,7 @@ typedef enum {
         LED_NORMAL_FLASH_FAST
 }LED_NORMAL_TYPE;
 typedef enum {
-    LED_NOTIFY_OFF,
+        LED_NOTIFY_OFF,
         LED_NOTIFY_FLASH_2,
         LED_NOTIFY_FLASH_3,
         LED_NOTIFY_FLASH_LONG,

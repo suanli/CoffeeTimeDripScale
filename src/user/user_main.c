@@ -84,12 +84,19 @@ void user_init(void)
     printf("SDK version:%s\n", system_get_sdk_version());
     
     led_init();
-    //vTaskDelay(10000);
+    led_notify(LED_NOTIFY_FLASH_2);
+#if 0
     led_set(LED_NORMAL_FLASH_SLOW);
-    //vTaskDelay(10000);
-    //led_set(LED_NORMAL_FLASH_FAST);
-    //vTaskDelay(10000);
-    //led_set(LED_NORMAL_ON);
+    vTaskDelay(10000 / portTICK_RATE_MS);
+    led_set(LED_NORMAL_FLASH_FAST);
+    led_notify(LED_NOTIFY_FLASH_2);
+    vTaskDelay(10000 / portTICK_RATE_MS);
+    led_set(LED_NORMAL_ON);
+    led_notify(LED_NOTIFY_FLASH_3);
+    vTaskDelay(10000 / portTICK_RATE_MS);
+    led_set(LED_NORMAL_OFF);
+    led_notify(LED_NOTIFY_FLASH_LONG);
+#endif
     printf("exit user init\r\n");
 }
 
